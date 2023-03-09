@@ -39,7 +39,7 @@ Communication layer used to CampChefConnect to facilitate grill communication
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-  s.dependency 'RxSwift', '~> 2.0'
+  s.dependency 'RxSwift'
   s.dependency 'RxBluetoothKit'
   s.dependency 'RxSwiftPlus/Http', '0.1.0'
   s.dependency 'RxSwiftPlus/Bluetooth', '0.1.0'
