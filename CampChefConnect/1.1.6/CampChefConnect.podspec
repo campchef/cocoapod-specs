@@ -25,7 +25,7 @@ The library contains all the frameworks and code neccessary to add grill control
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Chris-Flammer' => 'chrisf@campchef.com' }
-  s.source           = { :git => 'https://github.com/campchef/connect-pod.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:campchef/connect-pod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '15.0'
