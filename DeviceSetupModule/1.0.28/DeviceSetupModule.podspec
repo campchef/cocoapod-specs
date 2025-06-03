@@ -3,10 +3,10 @@ Pod::Spec.new do |s|
     s.version = "1.0.28"
     s.summary = "Wifi provisioning module for Camp Chef iOS app"
     s.description = "Wifi provisioning module for Camp Chef iOS app"
-    s.homepage = "github.com/shanelk/devicesetup-ios"
+    s.homepage = "github.com/campchef/devicesetup-ios"
     s.license = { :type => 'COMMERCIAL', :file => 'LICENSE' }
     s.author =  { 'Shane Thompson' => 'shane@lightningkite.com' }
-    s.source = { :git => 'git@github.com:shanelk/devicesetup-ios.git', :tag => s.version.to_s }
+    s.source = { :git => 'git@github.com:campchef/devicesetup-ios.git', :tag => s.version.to_s }
     s.vendored_frameworks = [
         "Frameworks/XCFrameworks/Release/App.xcframework",
         "Frameworks/XCFrameworks/Release/cupertino_http.xcframework",
