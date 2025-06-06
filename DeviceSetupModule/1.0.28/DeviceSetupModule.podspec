@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
     s.homepage = "github.com/campchef/devicesetup-ios"
     s.license = { :type => 'COMMERCIAL', :file => 'LICENSE' }
     s.author =  { 'Shane Thompson' => 'shane@lightningkite.com' }
-    s.source = { :git => 'git@github.com:campchef/devicesetup-ios.git', :tag => s.version.to_s }
+    s.source = { :git => 'https://github.com/campchef/devicesetup-ios.git', :tag => s.version.to_s }
     s.vendored_frameworks = [
         "Frameworks/XCFrameworks/Release/App.xcframework",
         "Frameworks/XCFrameworks/Release/cupertino_http.xcframework",
